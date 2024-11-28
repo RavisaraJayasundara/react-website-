@@ -8,14 +8,14 @@ export default function Food(){
         if(index<1){
             alert('Out of range');
         }else{
-            setIndex=(index-1);
+            setIndex(index-1);
         }
     }
     const next=()=>{
-        if(index>food.length-2){
+        if (index>food.length-2) {
             alert('Out of range');
-        }else{
-            setIndex=(index+1);
+        } else {
+            setIndex(index+1);
         }
     }
     return(
